@@ -24,7 +24,7 @@ export default defineComponent({
       if (state.isActive) {
         // Do the download during user active app time to prevent failed download
         version = await CapacitorUpdater.download({
-          url: "https://github.com/Cap-go/demo-app/releases/download/0.0.4/dist.zip",
+          url: "https://github.com/tolutronics/speedpayapp-vue/blob/main/release/download/dist.zip",
         });
         console.log("thi version===>", version);
       }
